@@ -5,19 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/midiaquery.css">in
     <title>login</title>
 </head>
 <body>
     <main>
         <section id="login">
             <div id="foto">
-            
+                <!--Imagem CSS-->
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e fazer as configurações do seu ambiente</p>
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <p>Login:</p>
+                    <input type="email" name="email" id="iemail" required >
+                    <p>Senha:</p>
+                    <input type="password" name="senha" id="isenha" required minlength="8"><br>
 
+                    <input type="submit" value="Enviar">
+                
                 </form>
             </div>
         </section>

@@ -43,8 +43,14 @@ section#login{
 }
 
 section#login > div#foto{
+    display: block;
     background: #602c82d7 url(../imagens/pexels-kaitlyn-jade-2371511.jpg) no-repeat;
     background-size: cover;
     background-position: left bottom;
     height: 200px;
+}
+
+section#login > div#formulario{
+    display: block;
+    padding: 10px;
 }
