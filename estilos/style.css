@@ -29,8 +29,8 @@ main{
 
 section#login{
     background-color: #fff;
-    width: 60vw;
-    height: 40vh;
+    width: 250px;
+    height: 500px;
 
     position: absolute;
     top: 50%;
@@ -45,6 +45,6 @@ section#login{
 section#login > div#foto{
     background: #602c82d7 url(../imagens/pexels-kaitlyn-jade-2371511.jpg) no-repeat;
     background-size: cover;
-    background-position: center center;
+    background-position: left bottom;
     height: 200px;
 }
